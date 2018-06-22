@@ -21,6 +21,7 @@ public class SimpleProducer {
         new SimpleProducer();
         String topic = args[0];
         String msg = args[1];
+        String others = args[2];
         KeyedMessage<Integer, String> data = new KeyedMessage<>(topic, msg);
         producer.send(data);
         producer.close();
