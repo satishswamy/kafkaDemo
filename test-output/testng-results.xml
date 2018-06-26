@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="69" started-at="2018-06-22T20:20:09Z" finished-at="2018-06-22T20:20:09Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="69" started-at="2018-06-22T20:20:09Z" finished-at="2018-06-22T20:20:09Z">
+      <class name="com.kafkaDemo.kafkaTest">
+        <test-method status="PASS" signature="testCreateTopic()[pri:0, instance:com.kafkaDemo.kafkaTest@100fc185]" name="testCreateTopic" duration-ms="18" started-at="2018-06-22T20:20:09Z" finished-at="2018-06-22T20:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateTopic -->
+        <test-method status="PASS" signature="testProducer()[pri:0, instance:com.kafkaDemo.kafkaTest@100fc185]" name="testProducer" duration-ms="4" started-at="2018-06-22T20:20:09Z" depends-on-methods="com.kafkaDemo.kafkaTest.testCreateTopic" finished-at="2018-06-22T20:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProducer -->
+        <test-method status="PASS" signature="testConsumer()[pri:0, instance:com.kafkaDemo.kafkaTest@100fc185]" name="testConsumer" duration-ms="1" started-at="2018-06-22T20:20:09Z" depends-on-methods="com.kafkaDemo.kafkaTest.testProducer" finished-at="2018-06-22T20:20:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testConsumer -->
+      </class> <!-- com.kafkaDemo.kafkaTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
